@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Agent: Your Personal Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to AI Agent</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Your Personal Assistant</h2>
+        <p>Effortlessly manage your emails, calendar, and more with our AI agent.</p>
+        <button onclick="scrollToSection('features')">Learn More</button>
+    </section>
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Unread email summaries</li>
+            <li>Calendar event and meeting check</li>
+            <li>And more...</li>
+        </ul>
+    </section>
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <p>Start with a free trial or choose from our paid plans.</p>
+        <button onclick="scrollToSection('contact')">Get Started</button>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" onsubmit="event.preventDefault(); alert('Thank you for contacting us!');">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 AI Agent. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
